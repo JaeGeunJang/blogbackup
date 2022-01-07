@@ -3,7 +3,7 @@ subtitle: Newbie Developer
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-url: "" # the base hostname & protocol for your site, e.g. https://jaegeunjang.github.io
+url: "https://jaegeunjang.github.io" # the base hostname & protocol for your site, e.g. https://jaegeunjang.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -40,21 +40,21 @@ author_work_experiences:
               company_url: https://google.com
               designation: Software Engineer
               description: Worked on various Google Products
-              visibility: true
+              visibility: false
             - company_name: Microsoft
               company_logo: microsoft.png
               company_url: https://microsoft.com
               designation: Azure Developer
               description: Worked on various Azure Cloud Products
-              visibility: true
+              visibility: false
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: hgu.png
+                college_name: Handong Global University
+                college_url: https://handong.edu/
+                college_degree: Computer Science & Mathematical Statistics
+                description: Undergraduated (Expected in 2023)
                 visibility: true
 
 # Projects
@@ -85,11 +85,11 @@ instagram_username: slow._.turtle
 wakatime_username: Slow_Turtle
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: jaekeun950@gmail.com
+#formspree_email: jaekeun950@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: devlopr
@@ -101,9 +101,9 @@ highlighter: rouge
 permalink: pretty
 
 # Choose what to show ( can be true or false)
-show_author_work_experiences: true
+show_author_work_experiences: false
 show_author_education_details: true
-show_author_project_details: true
+show_author_project_details: false
 
 # pagination of posts
 paginate: 4
